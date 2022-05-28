@@ -24,5 +24,9 @@ contract ytbet{
 
     }
 
+    function getBetAmount() public view returns(uint256){
+        return betAmount;
+    }
+
     
 }
